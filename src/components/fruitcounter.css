@@ -1,0 +1,162 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;   
+}
+
+ body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100vw;
+    height:100vh;
+   
+}
+
+.bgcontainer{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffd569;
+    text-align: center;
+}
+.contentcontainer{
+   margin:30px;
+   background-color: #ffffff;
+   border-radius:10px;
+  
+    
+}
+.bobcount{
+    padding:20px;
+   font-size: 40px;
+
+}
+
+
+.picturecontainer{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.imagecontainer{
+    margin:50px;
+}
+.clickon{
+  
+  text-align: center;
+  font-size: 15px;
+  background-color: #007bff;
+  border-radius: 5px;
+  border:none;
+  color:#ffffff;
+  margin:20px;
+  height:5vh;
+  width:20vh;
+}
+@media screen and (max-width:768px){
+    body {
+        display: flex;
+        justify-content: start;
+        align-items: center;
+       
+       
+    }
+ 
+  
+    .bgcontainer{
+        display:flex;
+        flex-direction: column;
+        justify-content: start;
+        background-color: #ffd569;
+        width:50vh;
+        height:110vh;
+       
+    }
+
+    .contentcontainer{
+        background-color: #ffffff;
+        width:46vh;
+        border-radius: 10px;
+        height:100vh;
+       
+    
+       
+         
+     }
+     .picture{
+       height:50px;
+       
+    
+     }
+     .bobcount{
+        padding:15px;
+       font-size: 15px;
+    
+    }
+    .clickon{
+        text-align:center;
+        font-size: 12px;
+        background-color: #007bff;
+        border-radius: 4px;
+        border:none;
+        color:#ffffff;
+        margin:15px;
+       
+      }
+
+}
+@media (min-width:768px) and (max-width:1200px){
+    body {
+        display: flex;
+        justify-content: start;
+        align-items: center;
+       
+       
+    }
+ 
+  
+    .bgcontainer{
+        display:flex;
+        flex-direction: column;
+        justify-content: start;
+        background-color: #ffd569;
+        width:150vh;
+        height:110vh;
+        padding-top:50px;
+       
+    }
+
+    .contentcontainer{
+        background-color: #ffffff;
+        width:105vh;
+        border-radius: 10px;
+        height:85vh;
+      
+       
+    
+       
+         
+     }
+     .picture{
+       height:70px;
+    
+     }
+     .bobcount{
+        padding:30px;
+       font-size: 30px;
+    
+    }
+    .clickon{
+        text-align:center;
+        font-size: 12px;
+        background-color: #007bff;
+        border-radius: 4px;
+        border:none;
+        color:#ffffff;
+        margin:15px;
+       
+      }
+    }
